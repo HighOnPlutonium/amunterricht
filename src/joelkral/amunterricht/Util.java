@@ -1,7 +1,5 @@
 package joelkral.amunterricht;
 
-import java.util.Arrays;
-
 public class Util 
 {
 	public static boolean isPrime(int n) 
@@ -14,19 +12,4 @@ public class Util
 		return true;
 	}
 
-	public static void print(int[] is) {
-		System.out.println(is);
-	}
-	
-	public static void print(Integer a) {
-		System.out.println(a);
-	}
-	
-	public static void print(String a) {
-		System.out.println(a);
-	}
-	
-	public static void print(Object[] a) {
-		System.out.println(Arrays.deepToString(a));
-	}
 }
