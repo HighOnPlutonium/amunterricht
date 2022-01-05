@@ -21,6 +21,8 @@ public class Main
 		
 		System.out.println(Arrays.toString(SexyPrimeVariation.primes(100))); //SexyPrimeVariation.iterPairs(iterations)
 		
+		System.out.println(Arrays.toString(SexyPrimeVariation.iterVariation(100)));
+		
 	}
 
 }
