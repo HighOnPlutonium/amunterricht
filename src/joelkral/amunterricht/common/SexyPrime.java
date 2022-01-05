@@ -1,6 +1,8 @@
-package amunterricht;
+package joelkral.amunterricht.common;
 
 import java.util.ArrayList;
+
+import joelkral.amunterricht.Util;
 
 public class SexyPrime 
 {
@@ -56,7 +58,7 @@ public class SexyPrime
 	 * @param iterations {@code int}, the amount of iterations
 	 * @return An 2 dimensional array containing all sexy prime pairs found after a certain amount of iterations
 	 */
-	public int[][] iterPairs(int iterations){
+	public int[][] iterPairs(int iterations) {
 		int r = 0;
 		int[][] iter = new int[this.iter(iterations).length][2];
 		for (int i: this.iter(iterations)) {
